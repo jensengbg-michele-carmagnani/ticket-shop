@@ -7,7 +7,7 @@ const {matchPassword } = require('../models/hashPassword')
 
 
 router.post('/login', async (req,res) =>{
-  const body = req.body
+  const body = req.body 
   console.log('--------login---------');
     console.log('User and pass from the cliente', body);
 
@@ -15,12 +15,10 @@ router.post('/login', async (req,res) =>{
     success :false
   }
   
-  
   const user = await getUserName(body);
-  console.log('user from db',user);
-  const isAMatch = await matchPassword(body.password, user.password);
-  console.log('isAMatch: ', isAMatch);
-  if (user && isAMatch){
+  const match = await matchPassword(body.password, user.password);
+  
+  if (user && match){
     const token = jwt.sign({uuid : user.uuid}, 'Pokemon',{ expiresIn : 600});
     resObj.success = true;
     resObj.token = token;
@@ -30,6 +28,28 @@ router.post('/login', async (req,res) =>{
   res.send(JSON.stringify(resObj));
 });
 
+router.get('/isLoggedin', async(req,res) =>{
+  const token = req.header('Authorization').replace('Bearer ', '');
+  console.log('token isLoggedin', token);
+  let resObj = {
+    isLoggedinIn :   false
+  }
+  if (token !== 'null'){
+    const user = jwt.verify(token, 'Pokemon');
+    if ( user){
+      resObj.success = true;
+      resObj.user = user;
+    }
+  }
+  res.send(JSON.stringify(resObj));
+});
+
+router.get('/logout', (res,req) =>{
+  let resObj ={
+    success: true
+  }
+  res.send(JSON.stringify(resObj));
+});
 
 
 module.exports = router
