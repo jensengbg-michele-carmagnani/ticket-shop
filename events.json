@@ -1,0 +1,102 @@
+{
+  "events": [
+    {
+      "name": "Brian adams",
+      "location": "London",
+      "date": "15/06/2020",
+      "timeIn": "20:30",
+      "timeOut": "12:00",
+      "tickets": 200,
+      "price": "150€",
+      "ticketsSold": 0
+    },
+    {
+      "name": "Vasco Rossi",
+      "location": "verona",
+      "date": "12/06",
+      "timeIn": "20",
+      "timeOut": "23",
+      "tickets": 200,
+      "price": "150€",
+      "ticketsSold": 0
+    },
+    {
+      "name": "Guns & roses",
+      "location": "berlin",
+      "date": "15/9",
+      "timeIn": "20:00",
+      "timeOut": "23:00",
+      "tickets": 300,
+      "price": "190€",
+      "ticketsSold": 0
+    },
+    {
+      "name": "Cindy Loper",
+      "location": "Milan",
+      "date": "12/9",
+      "timeIn": "19:00",
+      "timeOut": "23:00",
+      "tickets": 400,
+      "price": "56€",
+      "ticketsSold": 0
+    },
+    {
+      "name": "Magnus Uggla",
+      "location": "Götebr",
+      "date": "12/12",
+      "timeIn": "23:00",
+      "timeOut": "2:00",
+      "tickets": 200,
+      "price": "1200sek",
+      "ticketsSold": 0
+    },
+    {
+      "name": "Magnus Uggla",
+      "location": "Götebr",
+      "date": "12/12",
+      "timeIn": "23:00",
+      "timeOut": "2:00",
+      "tickets": 200,
+      "price": "1200sek",
+      "ticketsSold": 0
+    },
+    {
+      "name": "Brian Adams at Ullevi",
+      "location": "Göteborg",
+      "date": "10-2020",
+      "tickets": 200,
+      "price": "10",
+      "ticketsSold": 0
+    },
+    {
+      "name": "Brian Adams at Ullevi",
+      "location": "Göteborg",
+      "date": "10-2020",
+      "tickets": 200,
+      "price": "10",
+      "ticketsSold": 0
+    },
+    {
+      "name": "Brian Adams at Ullevi",
+      "location": "Göteborg",
+      "date": "10-2020",
+      "tickets": 200,
+      "price": "10",
+      "ticketsSold": 0
+    }
+  ],
+  "stuff": [
+    {
+      "username": "michele",
+      "password": "$2b$10$PU.qmCcoKWlOVsnxTgE0p.efXNYDaug6MarxsDkjrbWUPZ2TqEwRm",
+      "uuid": "ff2aa608-8248-44b7-85ff-4ebcaa15c293",
+      "role": "admin"
+    },
+    {
+      "username": "marco",
+      "password": "$2b$10$GK8bBFlHREaQo1SxdlaauOwsxLZiinIbrONZDc/RU2TjAUz2plpAe",
+      "uuid": "b27e9f07-19b3-4d7e-9d49-64c0b2d87632",
+      "role": "user"
+    }
+  ]
+}

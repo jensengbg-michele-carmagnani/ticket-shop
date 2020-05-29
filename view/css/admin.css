@@ -1,0 +1,61 @@
+html,body{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(74, 69, 123);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.wrapper{
+  color: #F56B9A;
+  background-color: #231F42;
+  width: 80vw;
+  height: 60vh;
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 70% 40%;
+  grid-template-areas: "main1 main2";
+  
+
+}
+.title{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.event{
+  grid-area: main1;
+  
+}
+.form{
+  grid-area: main2;
+}
+.eventToDisplay{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "name location ticket sold";
+  }
+  .eventName{
+    grid-area: name;
+  }
+  .enventLocation{
+    grid-area: location;
+  }
+  .enventTickets{
+    grid-area: tickets;
+  }
+  .enventSold{
+    grid-area: sold;
+  }
+
+
+#createEv{
+  background-color: #F56B9A;
+  color:white;
+}
