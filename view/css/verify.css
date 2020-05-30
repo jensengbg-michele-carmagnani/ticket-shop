@@ -2,45 +2,50 @@ html body {
   height: 100vh;
   width: 100vw;
   border: 0px;
+  padding: 0px;
 }
 
 body{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000000;
+  
 }
-.img{
+img{
   width: 150px;
   height: 150px;
 }
-.wrapper{
+.verification-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 375px;
   height: 667px;
   background-color: #F39440;
+}
+.logo, h1, h2{
+  text-align: center;
+}
+
+#ticket-number{
+  margin-bottom: 10px;
+  width: 310px;
+  height: 60px;
+  background-color: #F39440;;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#verification-area{
+  text-align: center;
+  border: 2px solid  #231F42;
   
-  height: 140px;
-  display: flex;
-  border: 0px;
-  padding: 0px;
-}
-#ticket-number{
-  width: 310px;
-  height: 80px;
-  color: #ffffff;
-  font-size: 30px;
-  background-color: #F39440;
 }
 #verify-tiket{
+  
   width: 310px;
   height: 60px;
   color: #ffffff;
   font-size: 22px;
   background-color: #231F42;
+  border: 2px solid  #231F42;
 }

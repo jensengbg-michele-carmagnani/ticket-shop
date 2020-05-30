@@ -1,0 +1,40 @@
+html body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  text-align: center;
+}
+
+.events{
+  width: 375px;
+  height: 800px;
+  background-color: #231F42;
+  color: #ffffff;
+}
+/* section info with event date and all the info  */
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.info .name  a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.date {
+  border: 1px solid #ffffff;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
