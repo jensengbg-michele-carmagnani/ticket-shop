@@ -1,16 +1,6 @@
 {
   "events": [
     {
-      "name": "Brian adams",
-      "location": "London",
-      "date": "15/06/2020",
-      "timeIn": "20:30",
-      "timeOut": "12:00",
-      "tickets": 200,
-      "price": "150€",
-      "ticketsSold": 0
-    },
-    {
       "name": "Vasco Rossi",
       "location": "verona",
       "date": "12/06",
@@ -51,16 +41,6 @@
       "ticketsSold": 0
     },
     {
-      "name": "Magnus Uggla",
-      "location": "Götebr",
-      "date": "12/12",
-      "timeIn": "23:00",
-      "timeOut": "2:00",
-      "tickets": 200,
-      "price": "1200sek",
-      "ticketsSold": 0
-    },
-    {
       "name": "Brian Adams at Ullevi",
       "location": "Göteborg",
       "date": "10-2020",
@@ -69,18 +49,10 @@
       "ticketsSold": 0
     },
     {
-      "name": "Brian Adams at Ullevi",
+      "name": "Queen",
       "location": "Göteborg",
       "date": "10-2020",
-      "tickets": 200,
-      "price": "10",
-      "ticketsSold": 0
-    },
-    {
-      "name": "Brian Adams at Ullevi",
-      "location": "Göteborg",
-      "date": "10-2020",
-      "tickets": 200,
+      "tickets": 300,
       "price": "10",
       "ticketsSold": 0
     }
@@ -98,5 +70,12 @@
       "uuid": "b27e9f07-19b3-4d7e-9d49-64c0b2d87632",
       "role": "user"
     }
-  ]
+  ],
+  "ticket": [
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "yoplnr"
+    }
+  ],
+  "tickets": []
 }

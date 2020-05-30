@@ -10,6 +10,10 @@ module.exports = {
     async matchPassword(userPassword, hash){ 
       const match = await bcrypt.compare(userPassword, hash);
       return match;
+    },
+    async genereteTicket(){
+     const ticketNum = Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 6);
+     return ticketNum;
     }
 
 

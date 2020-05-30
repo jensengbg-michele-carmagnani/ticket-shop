@@ -9,7 +9,7 @@ module.exports = {
 
   // init the db
 async initdb(){
-  db.defaults({ events: [] }).write();
+  db.defaults({ events: [], tickets:[]}).write();
  },
   //function---get all the events active.
   async  getAllEvents() {
@@ -26,5 +26,29 @@ async initdb(){
   // function to get User name 
   async getUserName(user){
     return await db.get('stuff').find({username : user.username, }).value();
+  },
+                            //// -----USER ROUTER-----////
+  // function get event to sell
+  async getEvent(chosenEvent){
+     const event = await db.get('events').find({name : chosenEvent.name}).value();
+     return event;
+  },
+  // check if there are still tickes awailable for the event
+  async checkTicket(infoEvent){
+    return await db.get('events').find({name : infoEvent.name}).value();
+  },
+  // add the ticket number for the event name
+  async addTicket(ticketNum, eventName){
+    return await db.get('ticket').push({ eventName: eventName.name ,tickeNumber : ticketNum,}).write();
+  },
+  // add 1 to ticket sold, minus 1 to tikets awailable 
+  async ticketsLeft(event){
+    return await db.get('events').find({name: event.name}).assign({tickets : event.tickets -1, ticketsSold : event.ticketsSold +1 }).write();
+  },
+                        //// -----VERIFY ROUTER-----////
+  async verifyTicketNum(ticketNum){
+    return await db.get('ticket').find({ticketNumber: ticketNum.ticketNumber}).value();
+    
   }
+
 }
