@@ -6,9 +6,9 @@
       "date": "Nov 11",
       "timeIn": "20",
       "timeOut": "23",
-      "tickets": 34,
+      "tickets": 33,
       "price": "150€",
-      "ticketsSold": 166
+      "ticketsSold": 167
     },
     {
       "name": "Guns & roses",
@@ -79,6 +79,10 @@
     {
       "eventName": "Vasco Rossi",
       "ticketNumber": "zpgdqx"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "utkleu"
     }
   ]
 }
