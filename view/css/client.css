@@ -15,26 +15,72 @@ html body {
   background-color: #231F42;
   color: #ffffff;
 }
+.wrapper-event{
+  border: 2px solid #ffffff;
+ display: grid;
+ grid-template-columns: 66px 219px;
+ column-gap: 25px;
+ grid-template-areas: "date info"
+                      
+ }
 /* section info with event date and all the info  */
+.date {
+  border: 1px solid red;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  /* grid-area: date;    */
+
+/* .name{
+  grid-area: name;
+}
+.location{
+  grid-area: location;
+}
+.timeIn{
+  grid-area: price;
+}
+.timeOut{
+  grid-area: price;
+}
+.price{
+  grid-area: price;
+} */
 .info{
+  width: 217;
+  height: 65px  ;
+  border: 1px green solid;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; */
+ 
+  
+}
+.location,.name{
+  height: 10px;
+  margin: 0px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.name{
+  margin-bottom: 14px;
+}
+.time-price{
+  margin: 0px;
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
 }
 .info .name  a{
   text-decoration: none;
   color: #ffffff;
 }
 
-.date {
-  border: 1px solid #ffffff;
-  width: 54px;
-  height: 54px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
+
 
 

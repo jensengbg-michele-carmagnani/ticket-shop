@@ -40,7 +40,7 @@ img{
   border: 2px solid  #231F42;
   
 }
-#verify-tiket{
+#verify-ticket{
   
   width: 310px;
   height: 60px;
@@ -48,4 +48,12 @@ img{
   font-size: 22px;
   background-color: #231F42;
   border: 2px solid  #231F42;
+}
+
+/* show and hide ticket */
+.resp{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

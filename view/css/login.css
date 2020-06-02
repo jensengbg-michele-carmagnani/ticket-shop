@@ -21,7 +21,7 @@ line-height: 22px;
 display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 0.3em;
+letter-spacing: 0.3em;  
 }
 h1,h2{
   text-align: center;

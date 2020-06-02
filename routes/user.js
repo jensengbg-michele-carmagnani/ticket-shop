@@ -4,7 +4,7 @@ const {getAllEvents, getEvent, checkTicket, addTicket, ticketsLeft} = require('.
 const {genereteTicket} = require('../models/hashPassword')
 
 
-//GET endpoint to get all the event awailable 
+//POST endpoint to get all the event awailable 
 router.get('/events', async (req,res)=>{
   const events = await getAllEvents();
   console.log(events);
@@ -16,26 +16,32 @@ router.get('/events', async (req,res)=>{
   
   res.send(JSON.stringify(resObj));
 });
-
-router.get('/event', async (req,res) =>{
-   const chosenEvent = req.body;
-   console.log('concert choosen ', chosenEvent);
-   const event = await getEvent(chosenEvent);
+// POST retrieve the ticket event
+router.post('/event', async (req,res) =>{
+  nameEvent = req.body;
+   console.log('nameEvent', nameEvent);
+  
+   let resObj = {
+    success : false
+  }
+   const event = await getEvent(nameEvent);
    console.log('event from db', event)
-   let resObj  ={
-      name: event.name,
-      date: event.date, 
-      timeIn: event.timeIn,
-      timeOut: event.timeOut,
-      location: event.location,
-      price: event.price,
-    }
+   
+      resObj.success = true,
+      resObj.name = event.name,
+      resObj.date = event.date, 
+      resObj.timeIn = event.timeIn,
+      resObj.timeOut = event.timeOut,
+      resObj.location =  event.location,
+      resObj.price = event.price,
+    
     res.send(JSON.stringify(resObj));
 });
 
 // POST after had store the info into the local.storage we send that back to perform the purchase 
 router.post('/buyTicket', async (req,res)=>{
     let infoEvent = req.body;
+    console.log('info event',infoEvent)
     let resObj = {
       success : false
     }

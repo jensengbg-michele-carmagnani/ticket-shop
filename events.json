@@ -6,9 +6,9 @@
       "date": "Nov 11",
       "timeIn": "20",
       "timeOut": "23",
-      "tickets": 199,
+      "tickets": 34,
       "price": "150€",
-      "ticketsSold": 1
+      "ticketsSold": 166
     },
     {
       "name": "Guns & roses",
@@ -16,9 +16,9 @@
       "date": "Gen 20",
       "timeIn": "20:00",
       "timeOut": "23:00",
-      "tickets": 300,
+      "tickets": 290,
       "price": "190€",
-      "ticketsSold": 0
+      "ticketsSold": 10
     },
     {
       "name": "Cindy Loper",
@@ -26,9 +26,9 @@
       "date": "Sep 13",
       "timeIn": "19:00",
       "timeOut": "23:00",
-      "tickets": 400,
+      "tickets": 398,
       "price": "56€",
-      "ticketsSold": 0
+      "ticketsSold": 2
     },
     {
       "name": "Magnus Uggla",
@@ -74,12 +74,11 @@
   "ticket": [
     {
       "eventName": "Vasco Rossi",
-      "ticketNumber": "yoplnr"
+      "ticketNumber": "blaegb"
     },
     {
       "eventName": "Vasco Rossi",
-      "tickeNumber": "mlgprc"
+      "ticketNumber": "zpgdqx"
     }
-  ],
-  "tickets": []
+  ]
 }

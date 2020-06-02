@@ -29,8 +29,8 @@ async initdb(){
   },
                             //// -----USER ROUTER-----////
   // function get event to sell
-  async getEvent(chosenEvent){
-     const event = await db.get('events').find({name : chosenEvent.name}).value();
+  async getEvent(nameEvent){
+     const event = await db.get('events').find({name : nameEvent.name}).value();
      return event;
   },
   // check if there are still tickes awailable for the event
@@ -39,15 +39,16 @@ async initdb(){
   },
   // add the ticket number for the event name
   async addTicket(ticketNum, eventName){
-    return await db.get('ticket').push({ eventName: eventName.name ,tickeNumber : ticketNum,}).write();
+    return await db.get('ticket').push({ eventName: eventName.name ,ticketNumber : ticketNum,}).write();
   },
   // add 1 to ticket sold, minus 1 to tikets awailable 
   async ticketsLeft(event){
     return await db.get('events').find({name: event.name}).assign({tickets : event.tickets -1, ticketsSold : event.ticketsSold +1 }).write();
   },
                         //// -----VERIFY ROUTER-----////
-  async verifyTicketNum(ticketNum){
-    return await db.get('ticket').find({ticketNumber: ticketNum.ticketNumber}).value();
+  async verifyTicketNum(number){
+    console.log('verify function DB', ticketNum)
+    return await db.get('ticket').find({ticketNumber: number.ticketNumber}).value();
     
   }
 

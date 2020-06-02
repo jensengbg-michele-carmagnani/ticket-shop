@@ -2,21 +2,22 @@ const {Router} = require('express');
 const router = new Router();
 const {verifyTicketNum} = require('../models/dbFunctions')
 
-router.get('/ticket', async(req,res) =>{
+router.post('/ticket', async(req,res) =>{
   ticketNum = req.body
+  console.log('TicketNum', ticketNum)
   let resObj = {
       success : false
     }
 
   isVerified = await verifyTicketNum(ticketNum)
-  console.log('is verified', isVerified)
+  console.log('isVerified', isVerified)
     if (typeof isVerified !== 'undefined'){
       resObj.success = true;
       resObj.message =  'Is verify'
       resObj.event =  isVerified.eventName
       resObj.ticket = isVerified.ticketNumber
     }else{
-      resObj.message = `Ticket code is not correct plese` 
+      resObj.message = `Ticket code is not correct!` 
        
     }
   res.send(JSON.stringify(resObj))
