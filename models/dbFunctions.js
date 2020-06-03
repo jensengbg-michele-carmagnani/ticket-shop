@@ -47,9 +47,10 @@ async initdb(){
   },
                         //// -----VERIFY ROUTER-----////
   async verifyTicketNum(number){
-    console.log('verify function DB', ticketNum)
     return await db.get('ticket').find({ticketNumber: number.ticketNumber}).value();
-    
+  },
+  async deleteTicket(ticketToCancel){
+    return await db.get('ticket').remove({ticketNumber: ticketToCancel.ticketNumber}).write();
   }
 
 }

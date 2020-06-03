@@ -1,6 +1,9 @@
+
+
 const loginButton = document.querySelector('#loginButton');
 const inputUser = document.querySelector('#username');
 const inputPass = document.querySelector('#password');
+const errorMessage = document.querySelector('#errormessage')
 
 function saveToken(token) {
   sessionStorage.setItem('auth', token);
@@ -53,13 +56,16 @@ loginButton.addEventListener('click', async () => {
   const password = inputPass.value;    
 
   let loggedin = await login(username, password);
-  console.log('loggedin', loggedin);
+
   if (loggedin.success && loggedin.role === 'admin') {
     saveToken(loggedin.token);
       location.href = 'http://localhost:3000/admin.html';
   }
-  else {
+  else if (loggedin.success && loggedin.role === 'user') {
       location.href = 'http://localhost:3000/verify.html';
+  }else {
+    errorMessage.classList.toggle('hide')
+    errorMessage.innerHTML = `${loggedin.message}`;
   }
 });
 

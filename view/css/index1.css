@@ -34,7 +34,7 @@ h1{
   align-items: center;
   
 }
-.user{
+.user,.login{
   margin-bottom: 10px;
 }
 a{

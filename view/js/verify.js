@@ -5,6 +5,7 @@ checkTicket = document.querySelector('#verify-ticket')
 eventName = document.querySelector('#name-event')
 ticketCode = document.querySelector('#ticket-code')
 respTicket = document.querySelector('.response')
+
 async function ticketToCheck(ticket){
   try {
     const url = 'http://localhost:3000/api/verify/ticket'
@@ -40,11 +41,15 @@ checkTicket.addEventListener('click', async()=> {
     // }
   
     // eventName.innerHtml = `${ticket.event}`;
-    // ticketCode.innerHtml = ticket.ticket;
+    // ticketCode.innerHtml = `${ticket.ticket}`;
     respTicket.innerHTML = '';
     respTicket.innerHTML += `
     <p id="name-event" class="resp">Event: ${ticket.event}</p>
     <p id="ticket-code" class="resp">Verified: ${ticket.ticket}</p>`;
-  
+  } else {
+    respTicket.innerHTML = '';
+    respTicket.innerHTML += `
+    <p id="name-event" class="resp">Event: ${ticket.message}</p>
+    <p id="ticket-code" class="resp">Not Verified: ${ticket.ticket}</p>`;
   }
 });

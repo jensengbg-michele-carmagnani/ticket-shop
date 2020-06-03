@@ -6,9 +6,9 @@
       "date": "Nov 11",
       "timeIn": "20",
       "timeOut": "23",
-      "tickets": 33,
+      "tickets": 27,
       "price": "150€",
-      "ticketsSold": 167
+      "ticketsSold": 173
     },
     {
       "name": "Guns & roses",
@@ -16,9 +16,9 @@
       "date": "Gen 20",
       "timeIn": "20:00",
       "timeOut": "23:00",
-      "tickets": 290,
+      "tickets": 289,
       "price": "190€",
-      "ticketsSold": 10
+      "ticketsSold": 11
     },
     {
       "name": "Cindy Loper",
@@ -36,9 +36,9 @@
       "date": "Dic 16",
       "timeIn": "23:00",
       "timeOut": "2:00",
-      "tickets": 200,
+      "tickets": 199,
       "price": "1200sek",
-      "ticketsSold": 0
+      "ticketsSold": 1
     },
     {
       "name": "Brian Adams at Ullevi",
@@ -54,6 +54,26 @@
       "date": "Jun 21",
       "tickets": 300,
       "price": "10",
+      "ticketsSold": 0
+    },
+    {
+      "name": "REM",
+      "location": "MUNICH",
+      "date": "30 AGO",
+      "timeIn": "20:30",
+      "timeOut": "23:30",
+      "tickets": 300,
+      "price": "110€",
+      "ticketsSold": 0
+    },
+    {
+      "name": "MANGO",
+      "location": "VERONA",
+      "date": "21 MAR",
+      "timeIn": "21:00",
+      "timeOut": "23:00",
+      "tickets": 500,
+      "price": "100€",
       "ticketsSold": 0
     }
   ],
@@ -73,16 +93,25 @@
   ],
   "ticket": [
     {
-      "eventName": "Vasco Rossi",
-      "ticketNumber": "blaegb"
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "eoppjc"
     },
     {
       "eventName": "Vasco Rossi",
-      "ticketNumber": "zpgdqx"
+      "ticketNumber": "xvewlp"
     },
     {
       "eventName": "Vasco Rossi",
-      "ticketNumber": "utkleu"
+      "ticketNumber": "fphwto"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "lsuswe"
+    },
+    {
+      "eventName": "Guns & roses",
+      "ticketNumber": "hjkzei"
     }
-  ]
+  ],
+  "tickets": []
 }

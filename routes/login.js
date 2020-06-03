@@ -16,14 +16,21 @@ router.post('/login', async (req,res) =>{
   }
   
   const user = await getUserName(body);
-  const match = await matchPassword(body.password, user.password);
-  
-  if (user && match){
-    const token = jwt.sign({uuid : user.uuid}, 'Pokemon',{ expiresIn : 600});
-    resObj.success = true;
-    resObj.token = token;
-    resObj.role = user.role;
+  console.log('wrong pass', typeof (user));
+  if (typeof user === 'undefined'){
+    resObj.message = "Username or password not correct",
+    resObj.success = false
+  }else {
+    const match = await matchPassword(body.password, user.password);
+    if (user && match){
+      const token = jwt.sign({uuid : user.uuid}, 'Pokemon',{ expiresIn : 600});
+      resObj.success = true;
+      resObj.token = token;
+      resObj.role = user.role;
+    } 
+
   }
+  
   console.log('resObj', resObj);
   res.send(JSON.stringify(resObj));
 });
