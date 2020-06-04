@@ -77,11 +77,14 @@ padding-left: 10px;
 }
 .where{
 
-font-family: Fira Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 10px;
-line-height: 12px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+
+  
+  color: rgba(0, 0, 0, 0.4);
 }
 .loc{
 font-family: Fira Sans;
@@ -94,7 +97,7 @@ line-height: 22px;
 .time{
 width: 311px;
 height: 66px;
-background: rgba(0, 0, 0, 0.06);
+background-color: #f0f0f0;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -125,5 +128,14 @@ flex-direction: column;
 margin: 0px;
 }
 .ticket-number{
-  margin-top: 25px;
+margin-top: 25px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.4);
 }

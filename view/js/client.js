@@ -10,7 +10,7 @@ eventsElem = document.querySelector('.events');
 async function displayAllEvents(events) {
   eventsElem.innerHTML = '';
   eventsElem.innerHTML += `<section class="title">
-  <h1>events</h1>
+  <h1>Events</h1>
 </section>`
   for (event of events.events) {
     const { name, location, date, timeIn, timeOut, price } = event;
@@ -26,7 +26,7 @@ async function displayAllEvents(events) {
           <p class="name" value="${name}" id="name" >${name}</p>
           <p class="location">${location}</p>
           <P class="time-price">
-            <span class="timeIn">${timeIn} ${timeOut}</span>
+            <span class="timeIn">${timeIn}-${timeOut}</span>
             <span class="price">${price}</span>
           </p>
         </article>

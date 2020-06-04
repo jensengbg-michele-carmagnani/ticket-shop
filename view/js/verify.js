@@ -32,16 +32,7 @@ checkTicket.addEventListener('click', async()=> {
   console.log('ticket', ticket)
  
   if (ticket.success){
-    // if (eventName.style.display == 'none' && ticketCode.style.display == 'none' ){
-    //   eventName.style.display == 'block';
-    //   ticketCode.style.display == 'block';
-    // } else {
-    //   eventName.style.display == 'none';
-    //   ticketCode.style.display == 'none';
-    // }
-  
-    // eventName.innerHtml = `${ticket.event}`;
-    // ticketCode.innerHtml = `${ticket.ticket}`;
+   
     respTicket.innerHTML = '';
     respTicket.innerHTML += `
     <p id="name-event" class="resp">Event: ${ticket.event}</p>

@@ -6,9 +6,9 @@
       "date": "Nov 11",
       "timeIn": "20",
       "timeOut": "23",
-      "tickets": 27,
+      "tickets": 1,
       "price": "150€",
-      "ticketsSold": 173
+      "ticketsSold": 199
     },
     {
       "name": "Guns & roses",
@@ -36,9 +36,9 @@
       "date": "Dic 16",
       "timeIn": "23:00",
       "timeOut": "2:00",
-      "tickets": 199,
+      "tickets": 198,
       "price": "1200sek",
-      "ticketsSold": 1
+      "ticketsSold": 2
     },
     {
       "name": "Brian Adams at Ullevi",
@@ -52,9 +52,9 @@
       "name": "Queen",
       "location": "Göteborg",
       "date": "Jun 21",
-      "tickets": 300,
+      "tickets": 299,
       "price": "10",
-      "ticketsSold": 0
+      "ticketsSold": 1
     },
     {
       "name": "REM",
@@ -111,6 +111,118 @@
     {
       "eventName": "Guns & roses",
       "ticketNumber": "hjkzei"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "zsxtwb"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "vkpmdv"
+    },
+    {
+      "eventName": "Queen",
+      "ticketNumber": "hyyyqv"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "xsmcfh"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "nxskbm"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "gosput"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "xxlxea"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "daodgz"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "djsrqg"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "ioysso"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "yvgcsf"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "jtsnrn"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "axqjwg"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "xylk"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "nzjaj"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "saaqgq"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "oytzdc"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "pysuy"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "gbnhom"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "olfpdc"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "clfyix"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "pffbok"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "rezssc"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "pbkuwu"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "myoivy"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "mcsxbl"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "myrjkt"
+    },
+    {
+      "eventName": "Vasco Rossi",
+      "ticketNumber": "vzwoak"
     }
   ],
   "tickets": []

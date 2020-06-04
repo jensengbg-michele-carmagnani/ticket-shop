@@ -16,7 +16,7 @@ async function displayTicket(ticket) {
         <p class="message">You are about to score <br> some tickets to</p>
         <p class="name">${name}</p>
         <span class="time">${date} ${timeIn}-${timeOut}</span>
-        <p class="location">${location}</p>
+        <p class="location">@${location}</p>
         <p class="price">${price}</P>
         <button class="buyTicket" id="buy">buy</button>
       
