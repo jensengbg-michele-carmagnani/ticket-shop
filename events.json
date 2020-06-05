@@ -26,9 +26,9 @@
       "date": "Sep 13",
       "timeIn": "19:00",
       "timeOut": "23:00",
-      "tickets": 387,
+      "tickets": 340,
       "price": "56€",
-      "ticketsSold": 13
+      "ticketsSold": 60
     },
     {
       "name": "Magnus Uggla",
@@ -36,17 +36,17 @@
       "date": "Dic 16",
       "timeIn": "23:00",
       "timeOut": "2:00",
-      "tickets": 198,
+      "tickets": 157,
       "price": "1200sek",
-      "ticketsSold": 2
+      "ticketsSold": 43
     },
     {
       "name": "Brian Adams at Ullevi",
       "location": "Göteborg",
       "date": "Mar 21",
-      "tickets": 173,
+      "tickets": 143,
       "price": "10",
-      "ticketsSold": 27
+      "ticketsSold": 57
     },
     {
       "name": "Queen",
@@ -62,9 +62,9 @@
       "date": "30 AGO",
       "timeIn": "20:30",
       "timeOut": "23:30",
-      "tickets": 300,
+      "tickets": 299,
       "price": "110€",
-      "ticketsSold": 0
+      "ticketsSold": 1
     },
     {
       "name": "MANGO",
@@ -367,6 +367,478 @@
     {
       "eventName": "Cindy Loper",
       "ticketNumber": "eggojy"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "vimhn"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "cygpku"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "zbhpbi"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "zavady"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "wveheh"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "huhqva"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "hywnv"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "rxtypl"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "nczvuv"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "ousgvg"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "wjgabz"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "rwwagg"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "cclvii"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "aznffy"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "jpakpx"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "pztava"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "sdlbwi"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "brvagf"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "thkfzk"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "pqjaig"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "zdzfpb"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "jnmeu"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "wlqrri"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "ucqcvv"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "pmeimy"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "jhryhj"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "ghxlgo"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "jxqffe"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "tasnpm"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "eaedxn"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "fcwriv"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "mrximm"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "khmhef"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "ymxmlc"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "rpsmfy"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "jkoxek"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "axsvrm"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "jpyrvp"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "eheloi"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "wjkgw"
+    },
+    {
+      "eventName": "Magnus Uggla",
+      "ticketNumber": "dfvalu"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "zmiecq"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "euaxwa"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "ukyiwt"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "kxxvpk"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "akrred"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "cjpfmd"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "pxaesw"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "hvzfmb"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "yjqvvx"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "wauyvg"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "zvyxau"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "mzjydr"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "opgzvl"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "zudpem"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "imrify"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "aluisi"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "mulcfq"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "okfufu"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "vntjma"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "sgdkge"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "zvpapt"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "gbctkp"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "lvooqi"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "gxrlqc"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "lyhvqz"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "wulaod"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "omdbsx"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "rmyyoh"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "nalexa"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "cmchxk"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "nftpvg"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "ctfqne"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "qxcyan"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "dhmygk"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "dwasbd"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "uuyoxg"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "hnmrkm"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "pldarv"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "dgzbcu"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "jpbhdz"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "bvilmr"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "kynuvq"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "fwvkgz"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "nbpugq"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "sxnhfq"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "odqff"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "vlzwq"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "sniire"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "vtldbi"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "weunjf"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "brrrkt"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "pzojho"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "wlkkln"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "yglliu"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "vmebze"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "zfmbpi"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "qekzxp"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "vaocwo"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "ejbzao"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "txzngg"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "nlspse"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "zlso"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "ffvojo"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "bqopvt"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "pomaob"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "zxytsx"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "brvtkd"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "pcxovr"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "zcgtnh"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "zxprzl"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "rvanye"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "qjpoba"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "bsclo"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "xdenfe"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "swpvqu"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "xspoma"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "cxcrxz"
     }
   ],
   "tickets": []

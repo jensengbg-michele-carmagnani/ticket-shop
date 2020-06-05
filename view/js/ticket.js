@@ -5,12 +5,12 @@ function getEvent() {
 }
 async function displayTicket(ticketEvent) {
   ticketElem.innerHTML = '';
-  const { name, location, date, timeIn, timeOut, price, ticketNumber } = ticketEvent;
+  ticketElem.innerHTML += ' <a href="index.html" id="logo"><img src="./pics/logo-colour.png" alt=""></a>';
+  const { name, location, date, timeIn, timeOut, ticketNumber } = ticketEvent;
   ticketElem.innerHTML += `
-    
+ 
 
     <section class="wrapper-event">
-
       <article class="info">
         <p class="name"><span class="what">What</span><span>${name}</span></p>
         <p class="location">
@@ -25,12 +25,16 @@ async function displayTicket(ticketEvent) {
           <P class="timeOut"><span>To</span><span>${timeOut}</span></P>
         </div>
         <img src="./pics/A2ED7barcode.png" alt="">
-        <span class="ticket-number">ticket Number: ${ticketNumber}</span> 
+        
+        <span class="ticket-number"> ${ticketNumber }   <span class="copy"><i class="far fa-copy" data-clipboard-target=".ticket-number" alt="Copy to clipboard"></i></span></span>
+      
+       
+        
         </article>
       <article>
     </section>`
     
-
+//copyNumber();
 }
 async function printTicket(){
   try {
@@ -55,6 +59,22 @@ async function printTicket(){
   } catch (error) {
     alert('wwwooooppsss Unfortunately something went wrong', error);
 
+  }
+}
+// copy number
+async function copyNumber(){
+
+  const text = document.querySelector('.ticket-number');
+   text.addEventListener('click', ()=>{
+  copiedText = text.innerText;
+  copiedText.execCommand("copy");
+
+  });
+  function copyText(){
+    
+    text.select(); //select the text area
+    document.execCommand("copy");
+  
   }
 }
 

@@ -4,25 +4,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.logo{
-  position: absolute;
-  top: 690px;
-  left: 475px;
-}
+    
 .title{
   text-align: center;
 }
 
 .ticket-place{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 width: 375px;
 height: 667px;
-background: rgb(35,31,66);
 background: linear-gradient(0deg, rgba(35,31,66,1) 0%, rgba(245,107,154,1) 100%); 
 }
+
+
 .wrapper-event{
 
 width: 311px;
@@ -144,4 +143,9 @@ display: flex;
 align-items: center;
 color: rgba(0, 0, 0, 0.4);
 margin-bottom: 28px;
+}
+.copy{
+  margin-left:  5px;
+  color: black;
+    
 }

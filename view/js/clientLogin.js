@@ -36,21 +36,6 @@ async function login(username, password) {
 
 
 
-async function loggedin() {
-  const token = getToken();
-  const url = 'http://localhost:3000/api/auth/loggedin';
-
-  const response = await fetch(url, {
-      method: 'GET',
-      headers: {
-          'Authorization': 'Bearer' + token
-      }
-  });
-  const data = await response.json();
-  return await data;
-}
-
-
 loginButton.addEventListener('click', async () => {
   const username = inputUser.value;
   const password = inputPass.value;    

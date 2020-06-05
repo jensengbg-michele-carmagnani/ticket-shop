@@ -43,7 +43,7 @@ router.get('/isLoggedin', async(req,res) =>{
   }
   if (token !== 'null'){
     const user = jwt.verify(token, 'Pokemon');
-    if ( user){
+    if (user){
       resObj.success = true;
       resObj.user = user;
     }

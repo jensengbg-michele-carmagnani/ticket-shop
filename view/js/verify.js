@@ -32,7 +32,7 @@ checkTicket.addEventListener('click', async()=> {
   console.log('ticket', ticket)
  
   if (ticket.success){
-   
+
     respTicket.innerHTML = '';
     respTicket.innerHTML += `
     <section class="hvr-grow-rotate">
@@ -47,4 +47,29 @@ checkTicket.addEventListener('click', async()=> {
     <p id="ticket-code" class="resp">Not Verified: ${ticket.ticket}</p>
     </section>`;
   }
+  
 });
+async function loggedin() {
+  const token = getToken();
+  const url = 'http://localhost:3000/api/auth/loggedin';
+
+  const response = await fetch(url, {
+      method: 'GET',
+      headers: {
+          'Authorization': 'Bearer' + token
+      }
+  });
+  const data = await response.json();
+  return await data;
+}
+async function checkToken(){
+  
+  const check = loggedin();
+  if(check.success !== true || check.user.role !== 'user'){
+    location.href = 'http://localhost:3000/login.html'
+  }
+
+}
+checkToken();
+
+
