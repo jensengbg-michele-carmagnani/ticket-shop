@@ -16,7 +16,7 @@ router.post('/login', async (req,res) =>{
   }
   
   const user = await getUserName(body);
-  console.log('wrong pass', typeof (user));
+  console.log('wrong pass', typeof user);
   if (typeof user === 'undefined'){
     resObj.message = "Username or password not correct",
     resObj.success = false
@@ -28,9 +28,7 @@ router.post('/login', async (req,res) =>{
       resObj.token = token;
       resObj.role = user.role;
     } 
-
   }
-  
   console.log('resObj', resObj);
   res.send(JSON.stringify(resObj));
 });
@@ -39,10 +37,12 @@ router.get('/isLoggedin', async(req,res) =>{
   const token = req.header('Authorization').replace('Bearer ', '');
   console.log('token isLoggedin', token);
   let resObj = {
-    isLoggedinIn :   false
+    isLoggedinIn : false
   }
+  console.log('token', token)
   if (token !== 'null'){
     const user = jwt.verify(token, 'Pokemon');
+    console.log('user verification token', user)
     if (user){
       resObj.success = true;
       resObj.user = user;

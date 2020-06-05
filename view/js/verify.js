@@ -1,11 +1,12 @@
-
-
 ticketNum = document.querySelector('#ticket-number')
 checkTicket = document.querySelector('#verify-ticket')
 eventName = document.querySelector('#name-event')
 ticketCode = document.querySelector('#ticket-code')
 respTicket = document.querySelector('.response')
 
+function getToken() {
+  return sessionStorage.getItem('auth');
+}
 async function ticketToCheck(ticket){
   try {
     const url = 'http://localhost:3000/api/verify/ticket'
@@ -23,7 +24,7 @@ async function ticketToCheck(ticket){
 }
 
 
-checkTicket.addEventListener('click', async()=> {
+checkTicket.addEventListener('click', async ()=> {
   
   let obj = {
     ticketNumber : ticketNum.value
@@ -49,9 +50,10 @@ checkTicket.addEventListener('click', async()=> {
   }
   
 });
-async function loggedin() {
-  const token = getToken();
-  const url = 'http://localhost:3000/api/auth/loggedin';
+async function isloggedIn() {
+  const token =  await getToken();
+  console.log('token', token)
+  const url = 'http://localhost:3000/api/auth/isLoggedin';
 
   const response = await fetch(url, {
       method: 'GET',
@@ -64,7 +66,8 @@ async function loggedin() {
 }
 async function checkToken(){
   
-  const check = loggedin();
+  const check = await isloggedIn();
+
   if(check.success !== true || check.user.role !== 'user'){
     location.href = 'http://localhost:3000/login.html'
   }

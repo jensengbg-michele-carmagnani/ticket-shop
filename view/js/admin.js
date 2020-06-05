@@ -8,6 +8,10 @@ const ticketsEv = document.querySelector('#tickets');
 const createEv = document.querySelector('#createEv');
 const eventElem = document.querySelector('#event');
 
+function getToken() {
+  return sessionStorage.getItem('auth');
+}
+
 async function displayAllEvents(events){
   console.log('all array',events);
   eventElem.innerHTML+= `  <section class="title"><h1>name</h1><h1>location</h1><h1>tickets</h1><h1>sold</h1></section>`
@@ -47,6 +51,7 @@ async function allEvents(){
 
 
 async function createEvent(event) {
+
   try {
     const url = 'http://localhost:3000/api/createEvent';
     const response = await fetch(url, { 
@@ -77,11 +82,13 @@ createEv.addEventListener('click', () => {
   }
   createEvent(obj);
 })
-async function loggedin() {
-  const token = getToken();
-  const url = 'http://localhost:3000/api/auth/loggedin';
 
-  const response = await fetch(url, {
+async function isLoggedIn() {
+  const token = await getToken();
+  try {
+    const url = 'http://localhost:3000/api/auth/isLoggedin';
+
+  const response = await fetch(url, { 
       method: 'GET',
       headers: {
           'Authorization': 'Bearer' + token
@@ -89,10 +96,16 @@ async function loggedin() {
   });
   const data = await response.json();
   return await data;
-}
-async function checkToken(){
+    
+  } catch (error) {
+    console.log('errro ', error)
+  }
   
-  const check = loggedin();
+}
+
+async function checkToken(){
+  const check = await isLoggedIn();
+  console.log('check the token',check)
   if(check.success !== true || check.user.role !== 'admin'){
     location.href = 'http://localhost:3000/'
   }

@@ -6,7 +6,7 @@ const inputPass = document.querySelector('#password');
 const errorMessage = document.querySelector('#errormessage')
 
 function saveToken(token) {
-  sessionStorage.setItem('auth', token);
+  return sessionStorage.setItem('auth', token);
 }
 
 function getToken() {
@@ -54,4 +54,4 @@ loginButton.addEventListener('click', async () => {
   }
 });
 
-//loggedin();
+//loggedin  ();
