@@ -6,9 +6,9 @@
       "date": "Nov 11",
       "timeIn": "20",
       "timeOut": "23",
-      "tickets": 1,
+      "tickets": 0,
       "price": "150€",
-      "ticketsSold": 199
+      "ticketsSold": 200
     },
     {
       "name": "Guns & roses",
@@ -16,9 +16,9 @@
       "date": "Gen 20",
       "timeIn": "20:00",
       "timeOut": "23:00",
-      "tickets": 289,
+      "tickets": 288,
       "price": "190€",
-      "ticketsSold": 11
+      "ticketsSold": 12
     },
     {
       "name": "Cindy Loper",
@@ -26,9 +26,9 @@
       "date": "Sep 13",
       "timeIn": "19:00",
       "timeOut": "23:00",
-      "tickets": 398,
+      "tickets": 387,
       "price": "56€",
-      "ticketsSold": 2
+      "ticketsSold": 13
     },
     {
       "name": "Magnus Uggla",
@@ -44,17 +44,17 @@
       "name": "Brian Adams at Ullevi",
       "location": "Göteborg",
       "date": "Mar 21",
-      "tickets": 200,
+      "tickets": 173,
       "price": "10",
-      "ticketsSold": 0
+      "ticketsSold": 27
     },
     {
       "name": "Queen",
       "location": "Göteborg",
       "date": "Jun 21",
-      "tickets": 299,
+      "tickets": 298,
       "price": "10",
-      "ticketsSold": 1
+      "ticketsSold": 2
     },
     {
       "name": "REM",
@@ -93,10 +93,6 @@
   ],
   "ticket": [
     {
-      "eventName": "Magnus Uggla",
-      "ticketNumber": "eoppjc"
-    },
-    {
       "eventName": "Vasco Rossi",
       "ticketNumber": "xvewlp"
     },
@@ -115,10 +111,6 @@
     {
       "eventName": "Magnus Uggla",
       "ticketNumber": "zsxtwb"
-    },
-    {
-      "eventName": "Vasco Rossi",
-      "ticketNumber": "vkpmdv"
     },
     {
       "eventName": "Queen",
@@ -223,6 +215,158 @@
     {
       "eventName": "Vasco Rossi",
       "ticketNumber": "vzwoak"
+    },
+    {
+      "eventName": "Guns & roses",
+      "ticketNumber": "shiglq"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "dznbqx"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "gsrdit"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "qezdse"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "spzmlq"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "shnpto"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "wyuwbj"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "xrqvwj"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "rcjonm"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "qberex"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "prgxzg"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "fvbojc"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "onvbk"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "fgcopn"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "poxtbu"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "ocezjj"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "bptvel"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "adggoc"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "pcftzt"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "wtirft"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "bldura"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "supjoi"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "lgtkyn"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "ikjhwa"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "bocvav"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "crvmve"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "lcrgio"
+    },
+    {
+      "eventName": "Brian Adams at Ullevi",
+      "ticketNumber": "mjthfu"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "xdprjm"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "eakgnx"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "igszax"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "myahj"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "uiwuiz"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "segevf"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "ilfsbg"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "mslata"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "pjhyde"
+    },
+    {
+      "eventName": "Cindy Loper",
+      "ticketNumber": "eggojy"
     }
   ],
   "tickets": []

@@ -35,12 +35,16 @@ checkTicket.addEventListener('click', async()=> {
    
     respTicket.innerHTML = '';
     respTicket.innerHTML += `
+    <section class="hvr-grow-rotate">
     <p id="name-event" class="resp">Event: ${ticket.event}</p>
-    <p id="ticket-code" class="resp">Verified: ${ticket.ticket}</p>`;
+    <p id="ticket-code" class="resp">Verified: ${ticket.ticket}</p>
+    </section>`;
   } else {
     respTicket.innerHTML = '';
     respTicket.innerHTML += `
+    <section class="hvr-grow-rotate not-correct">
     <p id="name-event" class="resp">Event: ${ticket.message}</p>
-    <p id="ticket-code" class="resp">Not Verified: ${ticket.ticket}</p>`;
+    <p id="ticket-code" class="resp">Not Verified: ${ticket.ticket}</p>
+    </section>`;
   }
 });

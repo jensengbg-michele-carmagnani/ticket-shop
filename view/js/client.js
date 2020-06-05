@@ -16,13 +16,13 @@ async function displayAllEvents(events) {
     const { name, location, date, timeIn, timeOut, price } = event;
     eventsElem.innerHTML += `
     
-    <section class="wrapper-event">
+    <section class="wrapper-event hvr-pulse">
 
         <article class="date">
           <span>${date}</span>
         </article>
 
-        <article class="info">
+        <article class="info" value="${name}">
           <p class="name" value="${name}" id="name" >${name}</p>
           <p class="location">${location}</p>
           <P class="time-price">
@@ -59,7 +59,7 @@ getEvent();
 
 //  nameElems = document.querySelectorAll('.name')
 function getNamasEvent() {
-  nameEvents = document.querySelectorAll('.name')
+  nameEvents = document.querySelectorAll('.info')
 
   for (let i = 0; i < nameEvents.length; i ++  ) {
     nameEvents[i].addEventListener('click', async () => {

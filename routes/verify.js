@@ -18,7 +18,7 @@ router.post('/ticket', async(req,res) =>{
       resObj.ticket = isVerified.ticketNumber
       deleteTicket(isVerified);
     }else{
-      resObj.message = `Ticket code is not correct!` ,
+      resObj.message = `Ticket code not correct!` ,
       resObj.success = false,
       resObj.ticket = ticketNum.ticketNumber
        

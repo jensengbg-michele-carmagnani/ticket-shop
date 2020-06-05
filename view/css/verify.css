@@ -38,6 +38,12 @@ img{
   align-items: center;
   text-align: center;
   border: 2px solid  #231F42;
+  font-family: Fira Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: 0.3em;
   
 }
 #verify-ticket{
@@ -56,4 +62,33 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Grow Rotate */
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+  font-family: Fira Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 36px;
+  letter-spacing: 0.3em;
+  color: #231F42;
+}
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}
+
+.not-correct{
+  color: red;
 }

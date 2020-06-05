@@ -64,8 +64,8 @@ loginButton.addEventListener('click', async () => {
   else if (loggedin.success && loggedin.role === 'user') {
       location.href = 'http://localhost:3000/verify.html';
   }else {
-    errorMessage.classList.toggle('hide')
-    errorMessage.innerHTML = `${loggedin.message}`;
+      errorMessage.classList.toggle('hide')
+      errorMessage.innerHTML = `${loggedin.message}`;
   }
 });
 

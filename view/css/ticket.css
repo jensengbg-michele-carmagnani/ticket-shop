@@ -1,9 +1,14 @@
-html body {
+ body {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.logo{
+  position: absolute;
+  top: 690px;
+  left: 475px;
 }
 .title{
   text-align: center;
@@ -102,6 +107,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 0px;
+margin-bottom: 40px;
 
 }
 .date, .timeIn, .timeOut{
@@ -119,7 +125,7 @@ margin: 0px;
 }
 .ticketNumber{
 width: 311px;
-height: 180px;
+height: 240px;
 background: rgba(0, 0, 0, 0.12);
 display: flex;
 justify-content: center;
@@ -136,6 +142,6 @@ font-size: 12px;
 line-height: 12px;
 display: flex;
 align-items: center;
-
 color: rgba(0, 0, 0, 0.4);
+margin-bottom: 28px;
 }

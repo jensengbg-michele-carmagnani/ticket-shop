@@ -17,15 +17,16 @@ async function displayTicket(ticketEvent) {
           <span class="where">Where</span>
           <span class="loc"> ${location}</span>
         </p>
+        
+        <article class="ticketNumber">
         <div class="time">
           <p class="date"><span>When</span><span>${date}</span></p> 
           <p class="timeIn"><span>From</span><span>${timeIn}</span></P>
           <P class="timeOut"><span>To</span><span>${timeOut}</span></P>
         </div>
-        <p class="ticketNumber">
         <img src="./pics/A2ED7barcode.png" alt="">
         <span class="ticket-number">ticket Number: ${ticketNumber}</span> 
-        </P>
+        </article>
       <article>
     </section>`
     
