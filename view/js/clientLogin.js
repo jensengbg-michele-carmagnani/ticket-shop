@@ -47,6 +47,7 @@ loginButton.addEventListener('click', async () => {
       location.href = 'http://localhost:3000/admin.html';
   }
   else if (loggedin.success && loggedin.role === 'user') {
+    saveToken(loggedin.token);
       location.href = 'http://localhost:3000/verify.html';
   }else {
       errorMessage.classList.toggle('hide')

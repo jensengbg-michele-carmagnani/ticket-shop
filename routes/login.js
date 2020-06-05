@@ -23,7 +23,7 @@ router.post('/login', async (req,res) =>{
   }else {
     const match = await matchPassword(body.password, user.password);
     if (user && match){
-      const token = jwt.sign({uuid : user.uuid}, 'Pokemon',{ expiresIn : 600});
+      const token = jwt.sign({uuid : user.uuid, role: user.role}, 'Pokemon',{ expiresIn : 600});
       resObj.success = true;
       resObj.token = token;
       resObj.role = user.role;

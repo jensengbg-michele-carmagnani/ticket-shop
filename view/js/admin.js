@@ -91,7 +91,7 @@ async function isLoggedIn() {
   const response = await fetch(url, { 
       method: 'GET',
       headers: {
-          'Authorization': 'Bearer' + token
+          'Authorization': 'Bearer ' + token
       }
   });
   const data = await response.json();

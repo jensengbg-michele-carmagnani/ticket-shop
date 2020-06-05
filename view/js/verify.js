@@ -51,14 +51,14 @@ checkTicket.addEventListener('click', async ()=> {
   
 });
 async function isloggedIn() {
-  const token =  await getToken();
+  const token = await getToken();
   console.log('token', token)
   const url = 'http://localhost:3000/api/auth/isLoggedin';
 
   const response = await fetch(url, {
       method: 'GET',
       headers: {
-          'Authorization': 'Bearer' + token
+          'Authorization': 'Bearer ' + token
       }
   });
   const data = await response.json();
