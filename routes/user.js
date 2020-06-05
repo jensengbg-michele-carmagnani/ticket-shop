@@ -62,8 +62,14 @@ router.post('/buyTicket', async (req,res)=>{
       resObj.price = isAvailable.price;
       resObj.ticketNumber = ticketNum;
     } else {
-      resObj.message = 'Ticket available = ' + isAvailable.tickets
       
+      resObj.name = 'Ticket Sold Out '; 
+      resObj.date = '';
+      resObj.timeIn = '';
+      resObj.timeOut = '';
+      resObj.location = '';
+      resObj.price = '';
+      resObj.ticketNumber = 'Sold out';
     }
     res.send(JSON.stringify(resObj));
 });
